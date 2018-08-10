@@ -12,7 +12,6 @@ export default class Router extends Component {
             <Switch>
                 <Route exact path='/' component={HomePage}/>
                 <Route path='/account' component={Account}/>
-                <Route path='/admin' component={Admin}/>
             </Switch>
         );
     }
