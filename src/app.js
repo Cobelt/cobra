@@ -9,7 +9,7 @@ export default class App extends Component {
     render() {
         return (
             <Grid columnsTemplate='1fr'>
-                {/*<Navbar />*/}
+                <Navbar />
                 <Router />
                 {/*<Footer />*/}
             </Grid>
